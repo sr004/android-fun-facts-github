@@ -26,7 +26,7 @@ public class ColorWheel {
 
     // Method (abilities: things the object can do)
     public int getColor() {
-        String color = "";
+        String color;
 
         // Randomly select a fact
         Random randomGenerator = new Random(); // Construct a new Random number generator
